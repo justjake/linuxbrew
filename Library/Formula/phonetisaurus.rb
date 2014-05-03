@@ -11,7 +11,7 @@ class Phonetisaurus < Formula
 
   # depends_on "cmake" => :build
   # depends_on :x11 # if your formula requires any X11/XQuartz components
-  # depends_on "OpenFST"
+  depends_on "openfst"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
